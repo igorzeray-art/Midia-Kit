@@ -1,0 +1,14 @@
+{
+  "name": "midia-kit-oullin",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Mídia Kit institucional da marca Oullin",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "preview": "node server.mjs dist"
+  }
+}
